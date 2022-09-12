@@ -1,0 +1,14 @@
+body {
+  background: #fff;
+  color: #bbb;
+}
+
+p {
+  margin: 10px 0 !important;
+}
+
+.login-container {
+  width: 500px;
+  margin-top: 200px;
+  text-align: center;
+}
