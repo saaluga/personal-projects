@@ -14,6 +14,7 @@
       crossorigin='anonymous'
       referrerpolicy='no-referrer'
     />
+    <script src="https://cdn.ckeditor.com/4.19.1/standard/ckeditor.js"></script>
     <link rel='stylesheet' href='/css/style.css' />
     <title>StoryBooks</title>
   </head>
@@ -28,6 +29,8 @@
     ></script>
     <script>
       M.Sidenav.init(document.querySelector('.sidenav'));
+      M.FormSelect.init(document.querySelector('#status'));
+      CKEDITOR.replace('body');
     </script>
   </body>
 </html>

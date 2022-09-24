@@ -1,0 +1,36 @@
+<h5>Add Story</h5>
+
+<div class='row'>
+  <form action='/stories' method='POST' class='col s12'>
+
+    <div class='row'>
+      <div class='input-field'>
+        <input type='text' id='titlt' name='title' />
+        <label for='title'>Title</label>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='input-field'>
+        <select name='status' id='status'>
+          <option value='public'>Public</option>
+          <option value='private'>Private</option>
+        </select>
+        <label for='status'>Status</label>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='input-field'>
+        <h6>Tell Us Your Story:</h6>
+        <textarea name='body' id='body'></textarea>
+      </div>
+    </div>
+
+    <div class='row'>
+      <input type='submit' value='Save' class='btn' />
+      <a href='/dashboard' class='btn red'>Cancel</a>
+    </div>
+
+  </form>
+</div>
